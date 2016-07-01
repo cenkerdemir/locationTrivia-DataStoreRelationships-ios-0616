@@ -80,8 +80,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CY0-SQ-jGa">
-                                <rect key="frame" x="281" y="298" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CY0-SQ-jGa">
+                                <rect key="frame" x="288" y="351" width="34" height="30"/>
                                 <accessibility key="accessibilityConfiguration" identifier="saveButton" label="saveButton"/>
                                 <state key="normal" title="Save"/>
                                 <connections>
@@ -94,8 +94,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7We-oP-rz7">
-                                <rect key="frame" x="166" y="298" width="48" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7We-oP-rz7">
+                                <rect key="frame" x="164" y="351" width="48" height="30"/>
                                 <accessibility key="accessibilityConfiguration" identifier="cancelButton" label="cancelButton"/>
                                 <state key="normal" title="Cancel"/>
                                 <connections>
@@ -108,6 +108,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhh-GK-BGN">
+                                <rect key="frame" x="201" y="65" width="109" height="30"/>
+                                <state key="normal" title="add my location"/>
+                                <connections>
+                                    <action selector="doFetchCurrentLocation:" destination="E31-pS-6b6" eventType="touchUpInside" id="1cZ-3D-11u"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
